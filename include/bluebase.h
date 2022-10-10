@@ -1,0 +1,8 @@
+//
+// Created by bear on 10/10/2022.
+//
+
+#ifndef BLUEBASE_GLOBAL_BLUEBASE_H
+#define BLUEBASE_GLOBAL_BLUEBASE_H
+
+#endif //BLUEBASE_GLOBAL_BLUEBASE_H
