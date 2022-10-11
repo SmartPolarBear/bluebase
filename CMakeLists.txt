@@ -7,3 +7,6 @@ add_executable(bluebase main.cpp)
 
 target_include_directories(bluebase
         PUBLIC include)
+
+add_subdirectory(pf)
+add_subdirectory(rm)

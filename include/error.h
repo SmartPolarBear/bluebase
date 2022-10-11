@@ -8,8 +8,8 @@
 
 namespace bluebase
 {
-using error_code = uint32_t;
+using ret_code = uint32_t;
 
 template<typename T>
-using expected = std::expected<T, error_code>;
+using expected = std::expected<T, ret_code>;
 }

@@ -4,3 +4,10 @@
 
 #pragma once
 
+namespace bluebase::rm
+{
+class rm_manager
+{
+
+};
+}
