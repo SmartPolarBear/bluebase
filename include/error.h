@@ -3,13 +3,19 @@
 //
 
 #pragma once
+
 #include <expected>
 #include <cstdint>
 
 namespace bluebase
 {
-using ret_code = uint32_t;
+using error_code = uint32_t;
 
 template<typename T>
-using expected = std::expected<T, ret_code>;
+using expected = std::expected<T, error_code>;
+
+enum error_codes : error_code
+{
+  ERROR_SUCCESS,
+};
 }

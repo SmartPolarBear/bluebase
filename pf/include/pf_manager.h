@@ -14,23 +14,11 @@
 
 namespace bluebase::pf
 {
-	class PFManager
-	{
-	public:
-		PFManager();
+class pf_manager
+{
+ public:
+  pf_manager();
 
-		~PFManager();
-
-		ret_code CreateFile(std::string_view fileName);
-
-		ret_code DestroyFile(std::string_view fileName);
-
-		expected<PFFileHandle> OpenFile(std::string_view fileName);
-
-		ret_code CloseFile(PFFileHandle& fileHandle);
-
-		expected<std::span<char>> AllocateBlock();
-
-		ret_code DisposeBlock(std::span<char> buf);
-	};
+  ~pf_manager();
+};
 }
